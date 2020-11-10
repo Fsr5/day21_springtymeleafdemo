@@ -12,6 +12,7 @@ public class FirstController {
 
     @GetMapping("/first")
     public String indexPage(Model model){
+        System.out.println("测试...");
         String message = "欢迎来到优就业" ;
         model.addAttribute("message",message);
         return "index" ;
