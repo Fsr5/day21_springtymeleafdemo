@@ -11,4 +11,9 @@ public class SecondController {
         System.out.println("test 2...");
     }
 
+    @RequestMapping("/add")
+    public void add(){
+        System.out.println("text2 add test");
+    }
+
 }
